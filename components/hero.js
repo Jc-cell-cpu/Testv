@@ -49,7 +49,7 @@ const Hero = () => {
             Save Taxes; Grow Your Business
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            Tax season shouldn't be a source of stress.  
+            Tax season shouldn&apos;t be a source of stress.  
             Tax Plus offers a user-friendly solution for 
             individuals and businesses in India
             seeking a smoother tax filing experience.

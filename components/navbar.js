@@ -6,10 +6,10 @@ import { Disclosure } from "@headlessui/react";
 
 const Navbar = () => {
   const [navigation, setNavigation] = useState([
-    <Link href="/Gst" className="Gst">GST</Link>,
-    <Link href="/IncomeTax">IncomeTax</Link>,
-    <Link href="/Service">Service</Link>,
-    <Link href="/Pricing">Pricing</Link>
+    { id: 1, label: 'GST', link: '/Gst' },
+    { id: 2, label: 'IncomeTax', link: '/IncomeTax' },
+    { id: 3, label: 'Service', link: '/Service' },
+    { id: 4, label: 'Pricing', link: '/Pricing' }
   ]);
 
   

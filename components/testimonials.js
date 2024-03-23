@@ -48,7 +48,7 @@ const Testimonials  = () => {
             Running a small business can be overwhelming, 
             but <Mark>Tax Plus takes the stress out of tax filing.</Mark>  
             They handle both my income tax return and my GST, 
-            allowing me to focus on what I do best. They're knowledgeable, 
+            allowing me to focus on what I do best. They&apos;re knowledgeable, 
             professional, and always available to answer my questions.
             </p>
 

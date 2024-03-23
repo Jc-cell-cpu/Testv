@@ -31,7 +31,7 @@ export default function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-            Tax season shouldn't be a source of stress.  
+            Tax season shouldn&apos;t be a source of stress.  
             Tax Plus offers a user-friendly solution for 
             individuals and businesses in India
             seeking a smoother tax filing experience.
