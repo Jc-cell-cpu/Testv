@@ -21,8 +21,9 @@ const Pricing = () => {
         />
         <link rel="icon" href="/img/logo1.png" />
       </Head>
-
+      <div className="px-9 py-2 flex justify-between items-center">
       <Navbar />
+      </div>
       <SectionTitle pretitle="ITR Filling">
         Answer your customers possible questions here, it will increase the
         conversion rate as well as support or chat requests.

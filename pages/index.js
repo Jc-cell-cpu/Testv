@@ -51,9 +51,13 @@ const Home = () => {
         />
         <link rel="icon" href="/img/logo1.png" />
       </Head>
-
-      <Navbar />
+      <div className="px-9 py-2 flex justify-between items-center">
+          <Navbar />
+      </div>
+      <div className="px-9 py-6 flex justify-between items-center">
       <Hero />
+    </div>
+      
       <AnimatedSectionAOS> 
       <SectionTitle
         pretitle="Taxplus Benefits"
@@ -70,10 +74,11 @@ const Home = () => {
       <Benefits data={benefitOne} />
       </AnimatedSectionAOS>
       
+      <div className="px-10 py-6 flex justify-between items-center">
       <AnimatedSectionAOS>
       <Benefits imgPos="right" data={benefitTwo} />
       </AnimatedSectionAOS>
-      
+      </div>
      
       {/* <SectionTitle
         pretitle="Watch a video"
@@ -127,6 +132,8 @@ const Home = () => {
       </SectionTitle>
       </AnimatedSectionAOS>
      
+      
+
      <AnimatedSectionAOS> 
       <SectionTitle
         pretitle="Testimonials"

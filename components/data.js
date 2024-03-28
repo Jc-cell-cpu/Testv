@@ -44,7 +44,7 @@ const benefitTwo = {
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "GST apply and fileing",
+      title: "GST apply and Filing",
       desc: "This Site is powered by latest technologies and tools.",
       icon: <AdjustmentsHorizontalIcon />,
     },
