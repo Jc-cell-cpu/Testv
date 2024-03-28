@@ -28,10 +28,10 @@ const PopupWidget = () => {
       };
 
       await emailjs.send(
-        'service_ua78dbp', // Replace with your EmailJS service ID
-        'template_8u96n7b', // Replace with your EmailJS template ID
+        'service_6mdotae', // Replace with your EmailJS service ID
+        'template_v1p4yp9', // Replace with your EmailJS template ID
         templateParams,
-        'CFU_LpDqtf6w-ZMxb' // Replace with your EmailJS user ID
+        'Q5LZAMpu2dVIMRG0h0RMt' // Replace with your EmailJS Private Key
       );
       setIsSuccess(true); // Set isSuccess to true after successful email sending
     } catch (error) {

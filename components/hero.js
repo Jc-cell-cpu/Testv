@@ -22,10 +22,10 @@ const Hero = () => {
       };
 
       await emailjs.send(
-        'service_ua78dbp', // Replace with your EmailJS service ID
-        'template_l54h5m7', // Replace with your EmailJS template ID
+        'service_6mdotae', // Replace with your EmailJS service ID
+        'template_92kg2kf', // Replace with your EmailJS template ID
         templateParams,
-        'CFU_LpDqtf6w-ZMxb' // Replace with your EmailJS user ID
+        'Q5LZAMpu2dVIMRG0h0RMt' // Replace with your EmailJS private key
       );
       setEmail('');
       // console.log('Email sent successfully');
