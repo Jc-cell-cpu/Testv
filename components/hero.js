@@ -25,7 +25,7 @@ const Hero = () => {
         'service_6mdotae', // Replace with your EmailJS service ID
         'template_92kg2kf', // Replace with your EmailJS template ID
         templateParams,
-        'Q5LZAMpu2dVIMRG0h0RMt' // Replace with your EmailJS private key
+        'TnhcAPGdqQfljTFJq' // Replace with your EmailJS public key
       );
       setEmail('');
       // console.log('Email sent successfully');

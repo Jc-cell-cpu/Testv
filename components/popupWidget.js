@@ -31,7 +31,7 @@ const PopupWidget = () => {
         'service_6mdotae', // Replace with your EmailJS service ID
         'template_v1p4yp9', // Replace with your EmailJS template ID
         templateParams,
-        'Q5LZAMpu2dVIMRG0h0RMt' // Replace with your EmailJS Private Key
+        'TnhcAPGdqQfljTFJq' // Replace with your EmailJS public Key
       );
       setIsSuccess(true); // Set isSuccess to true after successful email sending
     } catch (error) {
