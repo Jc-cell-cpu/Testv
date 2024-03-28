@@ -155,7 +155,12 @@ const Home = () => {
       <Cta />
       </AnimatedSectionAOS>
       
-      <Footer />
+
+<div className="px-9">
+<Footer />
+</div>
+
+      
       <PopupWidget />
     </>
   );

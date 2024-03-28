@@ -46,7 +46,7 @@ const Hero = () => {
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-            Save Taxes; Grow Your Business
+            Save Taxes; Grow Your Wealth
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
             Tax season shouldn&apos;t be a source of stress.  
@@ -61,7 +61,7 @@ const Hero = () => {
                 type="email"
                 value={email}
                 onChange={handleEmailChange}
-                placeholder="Enter your email"
+                placeholder="Enter your Contact"
                 className="px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-200 w-full sm:w-auto"
               />
               <button

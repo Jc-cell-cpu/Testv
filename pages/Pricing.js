@@ -43,7 +43,9 @@ const Pricing = () => {
       </SectionTitle>
       <PaymentComponentGst />
      
-      <Footer />
+      <div className="px-9">
+<Footer />
+</div>
       <PopupWidget />
 
       </>
