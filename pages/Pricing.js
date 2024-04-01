@@ -40,7 +40,7 @@ const Pricing = () => {
     return (
       <>
        <Head>
-        <title>Capital TaxPlus</title>
+        <title>CapitalTaxPlus Financial Services</title>
         <meta
           name="description"
           content="Streamline your tax filing with Tax Plus! File income tax and manage GST in one place, saving time and hassle."

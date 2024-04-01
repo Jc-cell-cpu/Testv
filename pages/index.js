@@ -18,6 +18,7 @@ import { useState,useEffect, useRef } from 'react';
 import { useInView } from 'react-intersection-observer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useRouter } from 'next/router';
 
 
 const AnimatedSectionAOS = ({ children }) => {
@@ -41,10 +42,12 @@ const AnimatedSectionAOS = ({ children }) => {
 
 
 const Home = () => {
+  const router = useRouter();
+  const canonicalUrl = `https://capitaltaxplus.com${router.asPath}`;
   return (
     <>
      <Head>
-        <title>Capital TaxPlus</title>
+        <title>CapitalTaxPlus Financial Services</title>
         <meta
           name="description"
           content="Streamline your tax filing with Tax Plus! File income tax and manage GST in one place, saving time and hassle."
@@ -67,7 +70,7 @@ const Home = () => {
         <meta name="twitter:title" content="Capital TaxPlus"/>
         <meta name="twitter:description" content="Streamline your tax filing process this year with Tax Plus! This user-friendly platform allows you to not only file your income tax return but also manage your Goods and Services Tax (GST) conveniently in one place, saving you time and minimizing the hassle of navigating separate systems."/>
         <meta name="twitter:image" content="https://opengraph.b-cdn.net/production/documents/1298b67b-2c0f-4d76-9017-05ad308c1634.jpg?token=cu_fM5rDzgZXD0JmdiqiyCbYWwO4fx8LPby9jNpIb54&height=1600&width=1200&expires=33247963234"/>
-       
+        <link rel="canonical" href={canonicalUrl} />
         <link rel="icon" href="favicon.ico" />
       </Head>
       <div className="px-9 py-2 flex justify-between items-center">
