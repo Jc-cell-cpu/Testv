@@ -37,7 +37,7 @@ const Pricing = () => {
       <Pricingcompone />
       <Pricingcomptwo />
       <SectionTitle pretitle="Tax Planning">
-    Answer your customers' possible questions here, it will increase the conversion rate as well as support or chat requests.
+    Answer your customers possible questions here, it will increase the conversion rate as well as support or chat requests.
       </SectionTitle>
       <PricingcompBasic />
       <SectionTitle pretitle="GST Planning">
