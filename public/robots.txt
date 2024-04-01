@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /private/
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+Sitemap: https://capitaltaxplus.com/sitemap.xml
