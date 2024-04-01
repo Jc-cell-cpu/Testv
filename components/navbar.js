@@ -27,7 +27,7 @@ const Navbar = () => {
                   <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <span>
                       <Image
-                        src="/img/logo1.png"
+                        src="/favicon.ico"
                         alt="N"
                         width="32"
                         height="32"
@@ -68,7 +68,7 @@ const Navbar = () => {
                           {item.label}
                       </Link>
                     ))}
-                    <Link href="/Pricing" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5 bg-gradient-to-r from-purple-500 to-indigo-600 rounded-md hover:from-indigo-600 hover:to-purple-700">         
+                    <Link href="/Pricing" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5 bg-gradient-to-r from-purple-500 to-indigo-600 hover:from-indigo-600 hover:to-purple-700">         
                         Get Started
                     </Link>
                   </>
@@ -93,7 +93,7 @@ const Navbar = () => {
 
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link href="/Pricing" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5 bg-gradient-to-r from-purple-500 to-indigo-600 rounded-md hover:from-indigo-600 hover:to-purple-700">
+          <Link href="/Pricing" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5 bg-gradient-to-r from-purple-500 to-indigo-600 hover:from-indigo-600 hover:to-purple-700">
               Get Started
           </Link>
 

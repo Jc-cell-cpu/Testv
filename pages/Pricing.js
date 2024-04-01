@@ -9,6 +9,10 @@ import PaymentComponentBasic from "../components/PaymentComponentBasic";
 import PaymentComponentGst from "../components/PaymentComponentGst";
 import PopupWidget from "../components/popupWidget";
 import SectionTitle from "../components/sectionTitle";
+import { Pricingcompone } from "@/components/component/pricingcompone";
+import { Pricingcomptwo } from "@/components/component/Pricingcomptwo";
+import { PricingcompBasic } from "@/components/component/PricingcompBasic";
+import { PricingcompGst } from "@/components/component/PricingcompGst";
 
 const Pricing = () => {
     return (
@@ -22,26 +26,25 @@ const Pricing = () => {
         <link rel="icon" href="/img/logo1.png" />
       </Head>
       <div className="px-9 py-2 flex justify-between items-center">
-      <Navbar />
+          <Navbar />
       </div>
-      <SectionTitle pretitle="ITR Filling">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
-      </SectionTitle>
-      <PaymentComponent />
-      <PaymentComponentII />
 
-      <SectionTitle pretitle="Tax Planning">
+      <SectionTitle pretitle="ITR Filling" class="text-red-500">
         Answer your customers possible questions here, it will increase the
         conversion rate as well as support or chat requests.
       </SectionTitle>
-      <PaymentComponentBasic />
 
+      <Pricingcompone />
+      <Pricingcomptwo />
       <SectionTitle pretitle="Tax Planning">
+    Answer your customers' possible questions here, it will increase the conversion rate as well as support or chat requests.
+      </SectionTitle>
+      <PricingcompBasic />
+      <SectionTitle pretitle="GST Planning">
         Answer your customers possible questions here, it will increase the
         conversion rate as well as support or chat requests.
       </SectionTitle>
-      <PaymentComponentGst />
+      <PricingcompGst />
      
       <div className="px-9">
 <Footer />
@@ -54,4 +57,4 @@ const Pricing = () => {
       
 };
 
-export default Pricing; // Correct default expor
+export default Pricing;
