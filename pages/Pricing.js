@@ -39,13 +39,32 @@ const AnimatedSectionAOS = ({ children }) => {
 const Pricing = () => {
     return (
       <>
-      <Head>
-        <title>Pricing</title>
+       <Head>
+        <title>Capital TaxPlus</title>
         <meta
           name="description"
-          content="Capital TaxPlus"
+          content="Streamline your tax filing process this year with Tax Plus! This user-friendly platform allows you to not only file your income tax return but also manage your Goods and Services Tax (GST) conveniently in one place, saving you time and minimizing the hassle of navigating separate systems."
         />
-        <link rel="icon" href="/img/logo1.png" />
+        <meta name="keywords" content="tax, GST, income tax, tax filing" />
+        <meta name="author" content="capitaltaxplus" />
+
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta property="og:url" content="https://capitaltaxplus.com/"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Capital TaxPlus"/>
+        <meta property="og:description" content="Streamline your tax filing process this year with Tax Plus! This user-friendly platform allows you to not only file your income tax return but also manage your Goods and Services Tax (GST) conveniently in one place, saving you time and minimizing the hassle of navigating separate systems."/>
+        <meta property="og:image" content="https://opengraph.b-cdn.net/production/documents/1298b67b-2c0f-4d76-9017-05ad308c1634.jpg?token=cu_fM5rDzgZXD0JmdiqiyCbYWwO4fx8LPby9jNpIb54&height=1600&width=1200&expires=33247963234"/>
+       
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta property="twitter:domain" content="capitaltaxplus.com"/>
+        <meta property="twitter:url" content="https://capitaltaxplus.com/"/>
+        <meta name="twitter:title" content="Capital TaxPlus"/>
+        <meta name="twitter:description" content="Streamline your tax filing process this year with Tax Plus! This user-friendly platform allows you to not only file your income tax return but also manage your Goods and Services Tax (GST) conveniently in one place, saving you time and minimizing the hassle of navigating separate systems."/>
+        <meta name="twitter:image" content="https://opengraph.b-cdn.net/production/documents/1298b67b-2c0f-4d76-9017-05ad308c1634.jpg?token=cu_fM5rDzgZXD0JmdiqiyCbYWwO4fx8LPby9jNpIb54&height=1600&width=1200&expires=33247963234"/>
+       
+        <link rel="icon" href="favicon.ico" />
       </Head>
       <div className="px-9 py-2 flex justify-between items-center">
           <Navbar />
