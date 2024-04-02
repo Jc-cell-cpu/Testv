@@ -185,9 +185,9 @@ export default function FourOhFour() {
 					</svg>
 
 				</div>
-				<p class="text-sm md:text-base text-purple-300 p-2 mb-4">The stuff you were looking for doesn't exist
+				<p class="text-sm md:text-base text-purple-300 p-2 mb-4">The stuff you were looking for doesn&#39;t exist
 				</p>
-                <a type="button" href="/" class="text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Go Back</a>
+                <Link type="button" href="/" class="text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Go Back</Link>
 			{/* <a href="/"
    class="text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-400 font-medium text-sm text-center me-2 mb-2 rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
    Go Back
