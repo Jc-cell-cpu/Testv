@@ -7,35 +7,49 @@ import { useState } from 'react';
 
 const Hero = () => {
 
-  const [email, setEmail] =  useState('');
+  const [mobile, setMobile] =  useState('');
+  const [isValidMobile, setIsValidMobile] = useState(true); // State to track mobile number validity
+  const [isDataEntered, setIsDataEntered] = useState(false);
 
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  };
+  
+
+  const handleMobileChange = (e) => {
+    const newValue = e.target.value;
+    setMobile(newValue);
+
+  const mobileRegex = /^[6-9]\d{9}$/;
+  setIsValidMobile(mobileRegex.test(newValue));
+  setIsDataEntered(newValue.trim().length > 0);
+  }
 
   const handleStartFiling = async () => {
+    // Check if mobile number is not valid or no data entered
+    if (!isValidMobile || !isDataEntered || mobile.trim() === '') {
+      alert("Mobile number invalid")
+      return;
+    }
+  
     try {
       const templateParams = {
-        from_name: email,
+        from_name: mobile,
         to_name: 'Taxplus', // Replace with your company name
-        message_html: `User Email: ${email}`, // Include the user's email in the message
+        message_html: `User Email: ${mobile}`, // Include the user's email in the message
       };
-
+  
       await emailjs.send(
         'service_6mdotae', // Replace with your EmailJS service ID
         'template_92kg2kf', // Replace with your EmailJS template ID
         templateParams,
         'TnhcAPGdqQfljTFJq' // Replace with your EmailJS public key
       );
-      setEmail('');
-      // console.log('Email sent successfully');
-      alert('Email sent successfully');
-      // Optionally, you can show a success message to the user
+  
+      setMobile('');
+      alert('We will reach you soon');
     } catch (error) {
-      alert("error")
-      // console.error('Error sending email:', error);
+      alert("Oops! We ran into a problem. Please try again later.");
     }
   };
+  
 
 
 
@@ -56,21 +70,23 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
-             
-            <input
-                type="email"
-                value={email}
-                onChange={handleEmailChange}
-                placeholder="Enter your Contact"
-                className="px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-200 w-full sm:w-auto"
-              />
+
+      <input
+        type="text"
+        value={mobile}
+        onChange={handleMobileChange}
+        placeholder="Enter your Contact"
+        className={`px-4 py-3 rounded-md border ${isValidMobile ? 'border-gray-300' : 'border-red-500'} focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-200 w-full sm:w-auto`}
+      />
               <button
           onClick={handleStartFiling}
+          disabled={!isValidMobile || !isDataEntered}
           className="px-5 py-3 text-lg font-medium text-center text-white bg-gradient-to-r from-purple-500 to-indigo-600 hover:from-indigo-600 hover:to-purple-700 rounded-md"
         >
           Start Filing
         </button>
             </div>
+            {!isValidMobile && <p className="bg-gradient-to-r from-red-500 to-yellow-600 text-transparent bg-clip-text mt-3">Please enter a valid mobile number.</p>}
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
