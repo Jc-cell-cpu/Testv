@@ -42,7 +42,7 @@ const Gstindiannational = () => {
 
 const gstregistrationdata = [
   {
-    question: "Documents for Proposed Proprietors (Indian Nationals)",
+    question: "Documents for Proposed Proprietors (Individuals)",
     answer: "",
     details: [
       "PAN card",

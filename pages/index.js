@@ -125,7 +125,7 @@ const Home = () => {
       </AnimatedSectionAOS>
       
       <AnimatedSectionAOS> 
-      <SectionTitle title="Indian Nationals">
+      <SectionTitle title="Individuals">
         Answer your customers possible questions here, it will increase the
         conversion rate as well as support or chat requests.
       </SectionTitle>
