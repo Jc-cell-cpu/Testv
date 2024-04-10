@@ -5,6 +5,9 @@ import Container from "./container";
 import userOneImg from "../public/img/user1.jpg";
 import userTwoImg from "../public/img/user2.jpg";
 import userThreeImg from "../public/img/user3.jpg";
+import userForeImg from "../public/img/user4.jpg";
+import userFiveImg from "../public/img/user5.jpg";
+import userSixImg from "../public/img/user6.jpg";
 
 const Testimonials  = () => {
   return (
@@ -20,9 +23,9 @@ const Testimonials  = () => {
             </p>
 
             <Avatar
-              image={userOneImg}
-              name="Ashia Kumari"
-              title="Sr. Devloper NP"
+              image={userForeImg}
+              name="Priyanka Priyadarshini"
+              title="Professional"
             />
           </div>
         </div>
@@ -36,9 +39,9 @@ const Testimonials  = () => {
             </p>
 
             <Avatar
-              image={userTwoImg}
-              name="Rakesh Swain"
-              title="Lead Devloper NP"
+              image={userFiveImg}
+              name="Krushna Ranjan Patra"
+              title="Businessmen"
             />
           </div>
         </div>
@@ -53,9 +56,9 @@ const Testimonials  = () => {
             </p>
 
             <Avatar
-              image={userThreeImg}
-              name="Nalini Kanta"
-              title="Co-founder of HUT Inc"
+              image={userSixImg}
+              name="Satya Narayan Panda"
+              title="Sr.Manager ADECCO"
             />
           </div>
         </div>
