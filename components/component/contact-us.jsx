@@ -15,7 +15,7 @@ export function ContactUs() {
       <div className="space-y-4">
         <div className="space-y-2">
           <h2 className="text-3xl font-bold">Contact us</h2>
-          <p className="text-gray-500 dark:text-gray-400">We'll get back to you as soon as possible.</p>
+          <p className="text-gray-500 dark:text-gray-400">We&apos;ll get back to you as soon as possible.</p>
         </div>
         <div className="space-y-4">
           <div className="grid grid-cols-2 gap-4">
