@@ -67,9 +67,9 @@ const Hero = () => {
             <Typewriter
       options={{
         strings : [
-          "Grow Your Wealth",
+          "Boost Prosperity",
           "Thrive Financially",
-          "Harvest Your Riches"
+          "Reap Riches"
         ],
         autoStart: true,
         loop:true,
