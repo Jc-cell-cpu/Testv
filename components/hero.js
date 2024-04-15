@@ -3,6 +3,7 @@ import Container from "./container";
 import heroImg from "../public/img/hero.png";
 import emailjs from 'emailjs-com';
 import { useState } from 'react';
+import Typewriter from 'typewriter-effect';
 
 
 const Hero = () => {
@@ -59,8 +60,23 @@ const Hero = () => {
       <Container className="flex flex-wrap ">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
-            <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-            Save Taxes; Grow Your Wealth
+            <h1 className="text-5xl font-bold leading-snug tracking-tight text-gray-800 lg:text-5xl lg:leading-tight xl:text-7xl xl:leading-tight dark:text-white">
+            Save Taxes; 
+            <br/>
+            <span className="bg-gradient-to-r from-purple-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
+            <Typewriter
+      options={{
+        strings : [
+          "Grow Your Wealth",
+          "Thrive Financially",
+          "Harvest Your Riches"
+        ],
+        autoStart: true,
+        loop:true,
+        delay:145,
+      }}
+        />
+        </span>
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
             Tax season shouldn&apos;t be a source of stress.  
