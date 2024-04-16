@@ -263,7 +263,7 @@ export function Contact() {
             type="submit"
             className="block w-full rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-gradient-to-r from-purple-500 to-indigo-600 hover:from-indigo-600 hover:to-purple-700"
           >
-            Let's talk
+            Let&apos;s talk
           </button>
         </div>
       </form>
