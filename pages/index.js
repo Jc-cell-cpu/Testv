@@ -75,7 +75,10 @@ const Home = () => {
         <link rel="canonical" href={canonicalUrl} />
         <link rel="icon" href="favicon.ico" />
       </Head>
-<Banner/>
+      <div>
+      <Banner/>
+      </div>
+
 
       <div className="px-9 py-2 flex justify-between items-center">
           <Navbar />
@@ -100,10 +103,12 @@ const Home = () => {
       <Benefits data={benefitOne} />
       </AnimatedSectionAOS>
       
-      
+      <div className="ml-8">
       <AnimatedSectionAOS>
       <Benefits imgPos="right" data={benefitTwo} />
       </AnimatedSectionAOS>
+      </div>
+
     
      
       {/* <SectionTitle

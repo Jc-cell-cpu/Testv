@@ -73,8 +73,9 @@ export default function Footer() {
           </div>
           <div className="">
             <div>Follow us</div>
-            <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
+            <div className="flex mt-5 space-x-5 text-gray-950 dark:text-gray-500">
               <a
+              className="hover:text-indigo-600 dark:hover:text-indigo-500"
                 href="https://x.com/capitaltaxplus?t=Kc6_1TNaw6DYo-oj6Gkr6A&s=09"
                 target="_blank"
                 rel="noopener">
@@ -82,6 +83,7 @@ export default function Footer() {
                 <Twitter />
               </a>
               <a
+              className="hover:text-indigo-600 dark:hover:text-indigo-500"
                 href="https://www.facebook.com/profile.php?id=61556642542120&mibextid=ZbWKwL"
                 target="_blank"
                 rel="noopener">
@@ -89,6 +91,7 @@ export default function Footer() {
                 <Facebook />
               </a>
               <a
+              className="hover:text-indigo-600 dark:hover:text-indigo-500"
                 href="https://www.instagram.com/capitaltaxplus?utm_source=qr&igsh=a3JxdHEwaHljaXZj"
                 target="_blank"
                 rel="noopener">
@@ -96,6 +99,7 @@ export default function Footer() {
                 <Instagram />
               </a>
               <a
+              className="hover:text-indigo-600 dark:hover:text-indigo-500"
                 href="https://www.linkedin.com/in/capital-taxplus-8ba06a2b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
                 rel="noopener">

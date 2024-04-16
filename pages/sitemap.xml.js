@@ -47,6 +47,10 @@ function generateSiteMap() {
         <loc>${homepage}/Pricing</loc>
         <lastmod>${new Date().toISOString()}</lastmod>
       </url>
+      <url>
+      <loc>${homepage}/contactUs</loc>
+      <lastmod>${new Date().toISOString()}</lastmod>
+    </url>
     </urlset>
   `;
 }
