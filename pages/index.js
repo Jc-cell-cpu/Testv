@@ -19,6 +19,7 @@ import { useInView } from 'react-intersection-observer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useRouter } from 'next/router';
+import Banner from "@/components/Banner";
 
 
 const AnimatedSectionAOS = ({ children }) => {
@@ -74,6 +75,8 @@ const Home = () => {
         <link rel="canonical" href={canonicalUrl} />
         <link rel="icon" href="favicon.ico" />
       </Head>
+<Banner/>
+
       <div className="px-9 py-2 flex justify-between items-center">
           <Navbar />
       </div>
