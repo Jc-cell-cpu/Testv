@@ -60,10 +60,25 @@ const Hero = () => {
       <Container className="flex flex-wrap ">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
+            
+            {/* background_effect */}
+
+          {/* <div
+        className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+        aria-hidden="true"
+      >
+        <div
+          className="relative top-10 left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#544dbb] opacity-30 sm:left-[calc(25%+16rem)] sm:w-[72.1875rem]"
+          style={{
+            clipPath:
+              'polygon(0% 100%, 0% 0%, 100% 0%, 100% 55%, 50% 75%, 0% 55%)', // Adjusted clipPath for wave effect
+          }}
+        />
+      </div> */}
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
             Save Taxes; 
             <br/>
-            <span className="bg-gradient-to-r from-purple-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
+            <span className="text-6xl font-bold bg-gradient-to-r from-purple-600 via-green-400 to-indigo-500 inline-block text-transparent bg-clip-text">
             <Typewriter
       options={{
         strings : [

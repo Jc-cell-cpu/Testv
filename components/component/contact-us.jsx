@@ -102,6 +102,20 @@ export function Contact() {
   return (
     (<div
       className="grid items-start gap-12 md:grid-cols-2 md:items-center w-full max-w-6xl px-4 mx-auto py-12">
+      <div
+        className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+        aria-hidden="true"
+      >
+        <div
+          className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(10%+16rem)] sm:w-[72.1875rem]"
+          style={{
+            clipPath:
+              'polygon(0% 100%, 0% 0%, 100% 0%, 100% 55%, 50% 75%, 0% 55%)', // Adjusted clipPath for wave effect
+          }}
+        />
+      </div>
+
+
       <div className="mx-auto ml-4 space-y-4">
         <div className="space-y-2">
           <h2 className="text-3xl font-bold">Contact us</h2>
@@ -251,7 +265,7 @@ export function Contact() {
             </div>
             <Switch.Label className="text-sm leading-6">
               By selecting this, you agree to our{' '}
-              <a href="#" className="font-semibold text-indigo-600">
+              <a href="#" className="font-semibold text-indigo-400">
                 privacy&nbsp;policy
               </a>
               .
