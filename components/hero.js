@@ -78,7 +78,7 @@ const Hero = () => {
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
             Save Taxes; 
             <br/>
-            <span className="text-6xl font-bold bg-gradient-to-r from-purple-600 via-green-400 to-indigo-500 inline-block text-transparent bg-clip-text">
+            <span className="text-6xl font-bold bg-gradient-to-r from-purple-600 via-green-400 to-indigo-500 inline-block text-transparent bg-clip-text leading-snug">
             <Typewriter
       options={{
         strings : [
