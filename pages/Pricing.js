@@ -12,7 +12,7 @@ import { PricingcompGst } from "@/components/component/PricingcompGst";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-// Reusable AOS wrapper with consistent spacing
+// AOS wrapper with consistent spacing
 const AnimatedSectionAOS = ({ children }) => {
   useEffect(() => {
     AOS.init({
@@ -33,9 +33,9 @@ const Pricing = () => {
         <meta name="google-site-verification" content="Pt0CCXRMJJ_C_kxbDFvVtdcABaYRRBrdGJ8bqCEiJR0" />
         <meta
           name="description"
-          content="Streamline your tax filing with Tax Plus! File income tax and manage GST in one place, saving time and hassle."
+          content="Streamline your tax filing with CapitalTaxPlus. File ITR, plan taxes smartly, and manage GST all in one place."
         />
-        <meta name="keywords" content="tax, GST, income tax, tax filing" />
+        <meta name="keywords" content="tax, GST, ITR, income tax, tax planning, filing" />
         <meta name="author" content="capitaltaxplus" />
 
         {/* Facebook Meta Tags */}
@@ -44,7 +44,7 @@ const Pricing = () => {
         <meta property="og:title" content="Capital TaxPlus" />
         <meta
           property="og:description"
-          content="Streamline your tax filing process this year with Tax Plus! This user-friendly platform allows you to not only file your income tax return but also manage your Goods and Services Tax (GST) conveniently in one place, saving you time and minimizing the hassle of navigating separate systems."
+          content="Streamline your tax filing process with CapitalTaxPlus. File ITR, manage GST, and reduce your tax liability through expert planning."
         />
         <meta
           property="og:image"
@@ -58,7 +58,7 @@ const Pricing = () => {
         <meta name="twitter:title" content="Capital TaxPlus" />
         <meta
           name="twitter:description"
-          content="Streamline your tax filing process this year with Tax Plus! This user-friendly platform allows you to not only file your income tax return but also manage your Goods and Services Tax (GST) conveniently in one place, saving you time and minimizing the hassle of navigating separate systems."
+          content="Streamline your tax filing process with CapitalTaxPlus. File ITR, manage GST, and reduce your tax liability through expert planning."
         />
         <meta
           name="twitter:image"
@@ -73,16 +73,15 @@ const Pricing = () => {
         <Navbar />
       </div>
 
-      {/* ITR Section */}
+      {/* ITR Filing Section */}
       <AnimatedSectionAOS>
         <SectionTitle pretitle="ITR Filing" className="text-red-500 mb-6">
-          Answer your customers' possible questions here, it will increase the
-          conversion rate as well as support or chat requests.
+          File your Income Tax Returns quickly and accurately with our expert assistance and easy-to-use platform.
         </SectionTitle>
         <Pricingcompone />
       </AnimatedSectionAOS>
 
-      {/* Second ITR Plan */}
+      {/* ITR Plan Options */}
       <AnimatedSectionAOS>
         <Pricingcomptwo />
       </AnimatedSectionAOS>
@@ -90,17 +89,15 @@ const Pricing = () => {
       {/* Tax Planning Section */}
       <AnimatedSectionAOS>
         <SectionTitle pretitle="Tax Planning" className="mb-6">
-          Answer your customers' possible questions here, it will increase the
-          conversion rate as well as support or chat requests.
+          Discover personalized tax-saving strategies and optimize your tax liability with our expert planning services.
         </SectionTitle>
         <PricingcompBasic />
       </AnimatedSectionAOS>
 
-      {/* GST Planning Section */}
+      {/* GST Filing & Planning Section */}
       <AnimatedSectionAOS>
-        <SectionTitle pretitle="GST Planning" className="mb-1">
-          Answer your customers' possible questions here, it will increase the
-          conversion rate as well as support or chat requests.
+        <SectionTitle pretitle="GST Planning" className="mb-6">
+          Easily file GST returns, stay compliant, and get professional help for seamless Goods & Services Tax management.
         </SectionTitle>
         <PricingcompGst />
       </AnimatedSectionAOS>
@@ -110,7 +107,7 @@ const Pricing = () => {
         <Footer />
       </div>
 
-      {/* Chat Widget */}
+      {/* Chat/Lead Widget */}
       <PopupWidget />
     </>
   );
