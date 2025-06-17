@@ -11,7 +11,7 @@ export function Pricingcompone() {
             <div>
               <h3 className="text-2xl font-bold text-center">Salary & HP Plan</h3>
               <div className="mt-4 text-center">
-                <span className="text-4xl font-bold">&#8377;499</span>/ year
+                <span className="text-4xl font-bold">&#8377;799</span>/ year
               </div>
               <ul className="mt-4 space-y-2">
                 <li className="flex items-center">
@@ -45,7 +45,7 @@ export function Pricingcompone() {
             <div>
               <h3 className="text-2xl font-bold text-center">Business & Professional Plan</h3>
               <div className="mt-4 text-center">
-                <span className="text-4xl font-bold">&#8377;999</span>/ year
+                <span className="text-4xl font-bold">&#8377;1499</span>/ year
               </div>
               <ul className="mt-4 space-y-2">
                 <li className="flex items-center">
@@ -79,7 +79,7 @@ export function Pricingcompone() {
             <div>
               <h3 className="text-2xl font-bold text-center">Capital Gain Plan</h3>
               <div className="mt-4 text-center">
-                <span className="text-4xl font-bold">&#8377;1299</span>/ year
+                <span className="text-4xl font-bold">&#8377;1999</span>/ year
               </div>
               <ul className="mt-4 space-y-2">
                 <li className="flex items-center">

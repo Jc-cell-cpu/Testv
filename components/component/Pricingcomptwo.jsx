@@ -11,7 +11,7 @@ export function Pricingcomptwo() {
             <div>
               <h3 className="text-2xl font-bold text-center">Future & Options Plan</h3>
               <div className="mt-4 text-center">
-                <span className="text-4xl font-bold">&#8377;2599</span>/ year
+                <span className="text-4xl font-bold">&#8377;2999</span>/ year
               </div>
               <ul className="mt-4 space-y-2">
                 <li className="flex items-center">
@@ -57,7 +57,7 @@ export function Pricingcomptwo() {
             <div>
               <h3 className="text-2xl font-bold text-center">NRI/Resident Having Foreign Income</h3>
               <div className="mt-4 text-center">
-                <span className="text-4xl font-bold">&#8377;4999</span>/ year
+                <span className="text-4xl font-bold">&#8377;3999</span>/ year
               </div>
               <ul className="mt-4 space-y-2">
                 <li className="flex items-center">
@@ -107,7 +107,7 @@ export function Pricingcomptwo() {
             <div>
               <h3 className="text-2xl font-bold text-center">Crypto Currency Plan</h3>
               <div className="mt-4 text-center">
-                <span className="text-4xl font-bold">&#8377;3799</span>/ year
+                <span className="text-4xl font-bold">&#8377;3999</span>/ year
               </div>
               <ul className="mt-4 space-y-2">
                 <li className="flex items-center">
