@@ -99,7 +99,7 @@ export default function About() {
                             <div className="text-center mb-16">
                                 <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4">Get In Touch</h2>
                                 <p className="text-xl text-gray-600 dark:text-gray-300">
-                                    Ready to simplify your tax journey? We're here to help.
+                                    Ready to simplify your tax journey? We&apos;re here to help.
                                 </p>
                             </div>
 
